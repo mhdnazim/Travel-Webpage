@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel</title>
+
+  <!-- css linking  -->
+
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <!-- bootstrap linking  -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- fontawsome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+
+
+
+<!-- navbar -->
+
+<div class="navbar ">
+  <nav class="navbar navbar-dark bg-primary-subtle   fixed-top">
+    <div class="container-fluid">
+      <img src="./Image/LOGO.png" alt="No image" class="logo">
+      <a class="heading navbar-brand fs-1 fw-bold  text-dark " href="#home">Global Safari</a>
+      <button class="navbar-toggler text-dar bg-dark" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-dark"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">MENU</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active fw-bold text-primary" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#aboutus">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#packages">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#youtube">Youtube clips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#places">Most Popular Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#subscribe">Subscribe us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#contact">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#contact">Location</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Your Plans
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item text-success" href="#">Shedule</a></li>
+                <li><a class="dropdown-item text-success" href="#">Add More</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="#">Cancel Trip</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<!-- home  -->
+
+<!-- carausal  -->
+
+<div class="carausal " id="home">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide h-auto">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active" data-bs-interval="20">
+        <img src="./Image/carausal1.jpg" class="slide d-block w-100 h-auto " alt="No image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bold">Burj Al Arab</h5>
+          <p class="fw-bold">The Burj Al Arab is a luxury hotel located in the city of Dubai, United Arab Emirates.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="200">
+        <img src="./Image/carausal2.jpg" class="slide d-block w-100 h-auto" alt="No image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bold">Playa Varadero</h5>
+          <p class="fw-bold">Playa Varadero is a resort town in the province of Matanzas, Cuba</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="200">
+        <img src="./Image/carausal3.jpg" class="slide d-block w-100 h-auto" alt="No image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bold">Mount Fuji</h5>
+          <p class="fw-bold text-light">Mount Fuji is the tallest mountain in Japan.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="200">
+        <img src="./Image/carausal4.jpg" class="slide d-block w-100 h-auto" alt="No image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bold">Santorini</h5>
+          <p class="fw-bold">Santorini officially Thira and Classical Greek Thera is an island in the southern Aegean
+            Sea.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="200">
+        <img src="./Image/carausal5.jpg" class="slide d-block w-100 h-auto" alt="No image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="fw-bold text-light"> Eiffel Tower</h5>
+          <p class="fw-bold">The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- gride of places -->
+
+<!-- About Start -->
+<section id="aboutus">
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+          <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+          <h1 class="mb-4">Welcome to <span class="text-primary">Global Safari</span></h1>
+          <p class="mb-4">Discover the enchanting beauty and rich cultural tapestry of Global Safari, a hidden gem
+            waiting
+            to be explored. Our tourist webpage is your passport to a world of breathtaking landscapes, vibrant
+            traditions, and memorable experiences.</p>
+          <p class="mb-4">We're committed to sustainable and responsible tourism practices. Our goal is to protect the
+            environment, preserve local cultures, and give back to the communities we visit.</p>
+          <div class="row gy-2 gx-4 mb-4">
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa-solid fa-check text-primary me-2"></i>First Class Flights</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa-solid fa-check text-primary me-2"></i>Handpicked Hotels</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa-solid fa-check text-primary me-2"></i>5 Star Accommodations</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa-solid fa-check text-primary me-2"></i>Latest Model Vehicles</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa-solid fa-check text-primary me-2"></i>150 Premium City Tours</p>
+            </div>
+            <div class="col-sm-6">
+              <p class="mb-0"><i class="fa-solid fa-check text-primary me-2"></i>24/7 Service</p>
+            </div>
+          </div>
+          <a class="btn btn-primary py-3 px-5 mt-2 text-center" href="">Read More</a>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+          <div class="position-relative h-100">
+            <img class="about-image img-fluid position-absolute w-100 h-100" src="./Image/aboutimage.jpg" alt=""
+              style="object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- package section  -->
+
+<section id="packages">
+  <br><br><br><br>
+  <div class="container">
+
+    <h1 class="mb-4 text-center">Our <span class="text-primary">Packages</span></h1><br>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 col-md-4 d-flex justify-content-center ">
+        <div class="card text-center border-2 border-primary " style="width: 18rem;">
+          <img src="./Image/card1.jpg" class="img card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Explore Spain</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+              <h5 class="card-title fw-bold text-success mb-3">Strats from Rs:209,999/-</h5>
+            <a href="#" class="btn btn-primary fw-bold">7 Days</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-md-4 d-flex justify-content-center">
+        <div class="card text-center border-2 border-primary" style="width: 18rem;">
+          <img src="./Image/card2.jpg" class="img card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Explore China</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+              <h5 class="card-title fw-bold text-success mb-3">Strats from Rs:79,999/-</h5>
+            <a href="#" class="btn btn-primary fw-bold">5 days</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-md-4 d-flex justify-content-center">
+        <div class="card text-center border-2 border-primary" style="width: 18rem;">
+          <img src="./Image/card3.jpg" class="img card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Explore France </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+              <h5 class="card-title fw-bold text-success mb-3">Strats from Rs:99,999/-</h5>
+            <a href="#" class="btn btn-primary fw-bold">7 Days</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row my-2">
+      <div class="col-lg-4 col-sm-6 col-md-4 d-flex justify-content-center">
+        <div class="card text-center border-2 border-primary" style="width: 18rem;">
+          <img src="./Image/card4.jpg" class="img card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Explore Iceland</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+              <h5 class="card-title fw-bold text-success mb-3">Strats from Rs:109,999/-</h5>
+            <a href="#" class="btn btn-primary fw-bold">9 Days</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-md-4 d-flex justify-content-center">
+        <div class="card text-center border-2 border-primary" style="width: 18rem;">
+          <img src="./Image/card5.jpg" class="img card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Explore Mexico</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+              <h5 class="card-title fw-bold text-success mb-3">Strats from Rs:59,999/-</h5>
+            <a href="#" class="btn btn-primary fw-bold">8 Days</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 col-md-4 d-flex justify-content-center">
+        <div class="card text-center border-2 border-primary" style="width: 18rem;">
+          <img src="./Image/card6.jpg" class="img img-fluid card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Explore Norway</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+              <h5 class="card-title fw-bold text-success mb-3">Strats from Rs:27,999/-</h5>
+            <a href="#" class="btn btn-primary fw-bold">10 Days</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Youtube video  -->
+
+<section id="youtube">
+  <div class="container">
+    <br><br><br><br>
+    <h1 class="mb-4 text-center">Just watch our <span class="text-primary">Previous Trip </span>Shorts</h1><br>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/L0jXw_710Q0?si=fhWpi3oy6kDQLspO"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+      <div class="col-lg-6 col-sm-6">
+        <h1 class="mb-4 text-center">Planning to trip to <span class="text-primary">China ??</span></h1><br>
+        <p class="text-center fw-bold">Planning a trip to China? Discover hidden gems and travel hacks to make your trip
+          an adventure. Stay at the best hotels, eat at the best restaurants in Macau, Shanghai, Beijing and other
+          incredible destinations. Make the most of your trip with the amazing blogs in this article</p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Most popular places  -->
+
+<section id="places">
+  <br><br><br><br><br><br><br>
+  <div class="container pb-3 pt-2">
+    <h1 class="mb-4 text-center">Our Most <span class="text-primary">Popular </span>Places</h1><br>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="Places card">
+          <img src="./Image/switzerland-place1.jpg" alt="No image" class="img-card">
+          <div class="overlay">
+            <div class="text">Switzerland</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="Places card">
+          <img src="./Image/canada-place2.jpg" alt="" class="img-card">
+          <div class="overlay">
+            <div class="text">Canada</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="Places card">
+          <img src="./Image/ITALI-place3.jpg" alt="" class="img-card">
+          <div class="overlay">
+            <div class="text">Itali</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3 mb-5">
+      <div class="col-lg-4">
+        <div class="Places card">
+          <img src="./Image/new zee land-place4.jpg" alt="" class="img-card">
+          <div class="overlay">
+            <div class="text">New Zealand</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="Places card">
+          <img src="./Image/greece-place 5.jpg" alt="" class="img-card">
+          <div class="overlay">
+            <div class="text">Greece</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="Places card">
+          <img src="./Image/china-place6.jpg" alt="" class="img-card">
+          <div class="overlay">
+            <div class="text">China</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- review  -->
+<div class="container">
+  <div class="review" id="reviews">
+    <h1 class="mb-4 text-center">Our Most Valued <span class="text-primary">Reviews</span></h1>
+  </div>
+
+  <!-- Clients Review Section -->
+  <div class="reviewSection">
+
+
+    <!-- Clients Review-1 Section Starts from Here  -->
+    <div class="reviewItem">
+      <div class="top">
+        <div class="clientImage">
+          <img src="./Image/review1.jpg" alt="">
+          <span>Joseph</span>
+        </div>
+        <ul>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+        </ul>
+      </div>
+      <article>
+        <p class="review fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit beatae ipsa
+          voluptatibus perferendis quos eaque nemo error tempora harum quas, laudantium tenetur, neque,
+          facere exercitationem!</p>
+        <p>Sep 27, 2022</p>
+      </article>
+    </div>
+
+    <!-- Clients Review-2 Section Starts from Here  -->
+    <div class="reviewItem">
+      <div class="top">
+        <div class="clientImage">
+          <img src="./Image/review2.jpg" alt="">
+          <span>Michael</span>
+        </div>
+        <ul>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-regular fa-star"></i></li>
+        </ul>
+      </div>
+      <article>
+        <p class="review fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit beatae ipsa
+          voluptatibus perferendis quos eaque nemo error tempora harum quas, laudantium tenetur, neque,
+          facere exercitationem!</p>
+        <p>Aug 15, 2023</p>
+      </article>
+    </div>
+
+    <!-- Clients Review-3 Section Starts from Here  -->
+    <div class="reviewItem">
+      <div class="top">
+        <div class="clientImage">
+          <img src="./Image/review3.jpg" alt="">
+          <span>John</span>
+        </div>
+        <ul>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+        </ul>
+      </div>
+      <article>
+        <p class="review fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit beatae ipsa
+          voluptatibus perferendis quos eaque nemo error tempora harum quas, laudantium tenetur, neque,
+          facere exercitationem!</p>
+        <p>Apr 18, 2021</p>
+      </article>
+    </div>
+
+    <!-- 4 -->
+    <div class="reviewItem">
+      <div class="top">
+        <div class="clientImage">
+          <img src="./Image/review4.jpg" alt="">
+          <span>James</span>
+        </div>
+        <ul>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+        </ul>
+      </div>
+      <article>
+        <p class="review fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit beatae ipsa
+          voluptatibus perferendis quos eaque nemo error tempora harum quas, laudantium tenetur, neque,
+          facere exercitationem!</p>
+        <p>Jun 30, 2020</p>
+      </article>
+    </div>
+
+    <!-- 5  -->
+    <div class="reviewItem">
+      <div class="top">
+        <div class="clientImage">
+          <img src="./Image/review5.jpg" alt="">
+          <span>Elijah</span>
+        </div>
+        <ul>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-regular fa-star"></i></li>
+        </ul>
+      </div>
+      <article>
+        <p class="review fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit beatae ipsa
+          voluptatibus perferendis quos eaque nemo error tempora harum quas, laudantium tenetur, neque,
+          facere exercitationem!</p>
+        <p>Dec 09, 2023</p>
+      </article>
+    </div>
+
+    <!-- 6 -->
+    <div class="reviewItem">
+      <div class="top">
+        <div class="clientImage">
+          <img src="./Image/review6.jpg" alt="">
+          <span>Daniel</span>
+        </div>
+        <ul>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+          <li><i class="fa-solid fa-star"></i></li>
+        </ul>
+      </div>
+      <article>
+        <p class="review fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit beatae ipsa
+          voluptatibus perferendis quos eaque nemo error tempora harum quas, laudantium tenetur, neque,
+          facere exercitationem!</p>
+        <p>Jan 01, 2023</p>
+      </article>
+    </div>
+  </div>
+</div>
+
+<!-- subscribe us  -->
+
+<section id="subscribe">
+  <br><br>
+  <h1 class="mb-4 text-center"><span class="text-primary">Subscribe </span>Us</h1><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-6 bg-dark ">
+        <form action="action_page.php">
+
+          <label for="fname" class="text-light">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname" class="text-light">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country" class="text-light">Country</label>
+          <select id="country" name="country">
+            <option value="australia">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject" class="text-light">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit" class="mb-3">
+      
+        </form>
+      </div>
+      <div class="col-lg-6 col-sm-6">
+        <h1 class="fw-bold text-center mb-5">How can we Help?</h1>
+        <ul>
+          <li class="fw-bold mb-3">What is the company culture like?</li>
+          <li class="fw-bold mb-3">Would you provide free food or not?</li>
+          <li class="fw-bold mb-3">Can I know more about plans?</li>
+          <li class="fw-bold mb-3">Would you provide a tour guide there?</li>
+          <li class="fw-bold mb-3">Will it have any accidental insuranse></li>
+          <li class="fw-bold mb-3">Is there any refund policy?</li>
+          <li class="fw-bold mb-3">ETC?</li>
+        </ul>
+      </div>
+    </div>
+  
+  </div>
+</section>
+
+<!-- Footer Start -->
+<section id="contact">
+  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-4 col-md-6">
+          <h4 class="text-white mb-3">More</h4>
+          <a class="btn btn-link" href="">About Us</a>
+          <a class="btn btn-link" href="">Contact Us</a>
+          <a class="btn btn-link" href="">Privacy Policy</a>
+          <a class="btn btn-link" href="">Terms & Condition</a>
+          <a class="btn btn-link" href="">FAQs & Help</a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h4 class="text-white mb-3">Contact</h4>
+          <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>5th streat,America</p>
+          <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 246462646</p>
+          <p class="mb-2"><i class="fa fa-envelope me-3"></i>globalsafari@gmail.com</p>
+          <div class="d-flex pt-2">
+            <!-- icons -->
+            <div class="icon-div">
+              <!-- icon 1 -->
+              <div class="icon">
+                  <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+
+              <!-- icon 2 -->
+              <div class="icon">
+                  <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook"></i></a>
+              </div>
+
+              <!-- icon 3 -->
+              <div class="icon">
+                  <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+              </div>
+
+              <!-- icon 4 -->
+              <div class="icon">
+                <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+          </div>
+          </div>
+
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101843.85078159822!2d-95.79529292735921!3d37.09034843404337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b78500a1267ddb%3A0x22fbd60e2b53b95a!2sHoliday%20Inn%20Express%20%26%20Suites%20Coffeyville%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2sin!4v1696949144272!5m2!1sen!2sin"
+            width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+      </div>
+    </div>
+    <p style="text-align: center;">&copy;TRAVEL WEBSITE 2023 ALL RIGHTS RESERVED &reg; MUHAMMED NASIM
+    </p>
+  </div>
+  
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
